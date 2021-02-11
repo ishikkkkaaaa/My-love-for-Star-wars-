@@ -1,0 +1,82 @@
+*{
+    line-height: 1.5;
+    box-sizing: border-box;
+    background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
+    font-family:'Bitter';
+    
+}
+/* logo dimensions */
+.logo{
+    height:10em;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: #FFE807;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    color:aliceblue;
+    font-size: 23px;
+    padding:2%;
+}
+
+.story{
+    border: 2px solid #FFE807;
+    padding: 0px;
+    margin: 0px;
+}
+
+.first{
+    display: flex;
+    align-items: stretch;
+}
+.yoda{
+    padding: 4.5%;
+    margin: 100;
+    max-width: 100%;
+  
+}
+.half{
+    width:60%;
+    
+}
+.quater{
+    width:40%;
+}
+
+.best{
+    width: 40%;
+}
+
+.storybottom-quater{
+    width: 60%;
+}
+
+.nav-list{
+    display:flex;
+    flex-direction:column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+}
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    color: white;
+    font-size: 30px;
+}
+
+
