@@ -37,10 +37,11 @@ p{
     align-items: stretch;
 }
 .yoda{
-    padding: 4.5%;
-    margin: 100;
-    max-width: 100%;
-  
+    padding-left:4.5%;
+    padding-right:4.5%;
+    padding-bottom:5%;
+    height: 80%;
+    width: 100%;
 }
 .half{
     width:60%;
