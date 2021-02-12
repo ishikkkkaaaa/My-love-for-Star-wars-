@@ -27,25 +27,33 @@ p{
 }
 
 .story{
-    border: 2px solid #FFE807;
+    border: 5px solid #FFE807;
     padding: 0px;
     margin: 0px;
+   
 }
 
 .first{
     display: flex;
     align-items: stretch;
+    
 }
 .yoda{
     padding-left:4.5%;
     padding-right:4.5%;
     padding-bottom:5%;
-    height: 80%;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: max-content;
+    min-width: 100%;
 }
+
+
 .half{
     width:60%;
-    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 .quater{
     width:40%;
@@ -53,6 +61,7 @@ p{
 
 .best{
     width: 40%;
+    border: 5px solid #FFE807;
 }
 
 .storybottom-quater{
